@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="103832" started-at="2018-05-06T18:12:40Z" finished-at="2018-05-06T18:14:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="103832" started-at="2018-05-06T18:12:40Z" finished-at="2018-05-06T18:14:24Z">
+      <class name="Sikuli">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:Sikuli@2de8284b]" name="invokeBrowser" duration-ms="37504" started-at="2018-05-06T18:12:40Z" finished-at="2018-05-06T18:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Sikuli@2de8284b]" name="closeBrowser" is-config="true" duration-ms="1779" started-at="2018-05-06T18:13:18Z" finished-at="2018-05-06T18:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Sikuli -->
+      <class name="Facebook_Sikuli">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:Facebook_Sikuli@396e2f39]" name="invokeBrowser" duration-ms="14272" started-at="2018-05-06T18:13:38Z" finished-at="2018-05-06T18:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Facebook_Sikuli@396e2f39]" name="closeBrowser" is-config="true" duration-ms="2101" started-at="2018-05-06T18:13:52Z" finished-at="2018-05-06T18:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Facebook_Sikuli -->
+      <class name="assignments.assignment9_DataDrivenTesting.MercuryLogIn">
+        <test-method status="PASS" signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:assignments.assignment9_DataDrivenTesting.MercuryLogIn@a74868d]" name="logIn" duration-ms="11827" started-at="2018-05-06T18:13:56Z" data-provider="LC" finished-at="2018-05-06T18:14:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tutorial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:assignments.assignment9_DataDrivenTesting.MercuryLogIn@a74868d]" name="closebrowser" is-config="true" duration-ms="315" started-at="2018-05-06T18:14:08Z" finished-at="2018-05-06T18:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:assignments.assignment9_DataDrivenTesting.MercuryLogIn@a74868d]" name="logIn" duration-ms="6659" started-at="2018-05-06T18:14:08Z" data-provider="LC" finished-at="2018-05-06T18:14:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:assignments.assignment9_DataDrivenTesting.MercuryLogIn@a74868d]" name="closebrowser" is-config="true" duration-ms="167" started-at="2018-05-06T18:14:15Z" finished-at="2018-05-06T18:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="logIn(java.lang.String, java.lang.String)[pri:0, instance:assignments.assignment9_DataDrivenTesting.MercuryLogIn@a74868d]" name="logIn" duration-ms="8909" started-at="2018-05-06T18:14:15Z" data-provider="LC" finished-at="2018-05-06T18:14:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[new]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[new]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:assignments.assignment9_DataDrivenTesting.MercuryLogIn@a74868d]" name="closebrowser" is-config="true" duration-ms="428" started-at="2018-05-06T18:14:24Z" finished-at="2018-05-06T18:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- assignments.assignment9_DataDrivenTesting.MercuryLogIn -->
+      <class name="Amazon">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:Amazon@12c8a2c0]" name="invokeBrowser" duration-ms="15793" started-at="2018-05-06T18:13:20Z" finished-at="2018-05-06T18:13:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Amazon@12c8a2c0]" name="closeBrowser" is-config="true" duration-ms="2340" started-at="2018-05-06T18:13:36Z" finished-at="2018-05-06T18:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Amazon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
